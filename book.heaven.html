@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Heaven</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f9f9f9;
+}
+
+header{
+background:#4b2e2e;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#222;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+section{
+padding:50px;
+width:85%;
+margin:auto;
+}
+
+.hero{
+background-image:url('https://images.unsplash.com/photo-1512820790803-83ca734da794');
+background-size:cover;
+color:white;
+padding:120px;
+text-align:center;
+}
+
+.categories{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+flex:1;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.book-grid{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+gap:25px;
+}
+
+.book{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.book img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:8px;
+}
+
+button{
+background:#4b2e2e;
+color:white;
+border:none;
+padding:10px 15px;
+margin-top:10px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Book Heaven</h1>
+<p>A Paradise for Every Book Lover</p>
+</header>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#books">Books</a>
+<a href="#store">Store</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="hero" id="home">
+
+<h1>Welcome to Book Heaven</h1>
+
+<p>Discover a world of knowledge, imagination, and inspiration.</p>
+
+<button>Explore Books</button>
+
+</div>
+
+<section id="about">
+
+<h2>About Book Heaven</h2>
+
+<p>
+Book Heaven is a bookstore created to promote reading culture and provide readers with a wide collection of books across different genres.
+</p>
+
+<p>
+Our goal is to provide affordable and accessible books for students, professionals, and book lovers.
+</p>
+
+</section>
+
+<section id="books">
+
+<h2>Book Categories</h2>
+
+<div class="categories">
+
+<div class="card">
+<h3>Fiction</h3>
+<p>Adventure, mystery, romance and fantasy novels.</p>
+</div>
+
+<div class="card">
+<h3>Educational</h3>
+<p>Academic books and exam preparation material.</p>
+</div>
+
+<div class="card">
+<h3>Self Development</h3>
+<p>Books for productivity, mindset and growth.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="store">
+
+<h2>Featured Books</h2>
+
+<div class="book-grid">
+
+<div class="book">
+
+<img src="https://covers.openlibrary.org/b/id/10523338-L.jpg">
+
+<h3>Atomic Habits</h3>
+
+<p>Author: James Clear</p>
+
+<p><b>Price:</b> ₹499</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://covers.openlibrary.org/b/id/10594765-L.jpg">
+
+<h3>Rich Dad Poor Dad</h3>
+
+<p>Author: Robert Kiyosaki</p>
+
+<p><b>Price:</b> ₹399</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://covers.openlibrary.org/b/id/8231996-L.jpg">
+
+<h3>The Alchemist</h3>
+
+<p>Author: Paulo Coelho</p>
+
+<p><b>Price:</b> ₹350</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://covers.openlibrary.org/b/id/9251996-L.jpg">
+
+<h3>Think and Grow Rich</h3>
+
+<p>Author: Napoleon Hill</p>
+
+<p><b>Price:</b> ₹450</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://covers.openlibrary.org/b/id/240726-L.jpg">
+
+<h3>Harry Potter</h3>
+
+<p>Author: J.K. Rowling</p>
+
+<p><b>Price:</b> ₹599</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="book">
+
+<img src="https://covers.openlibrary.org/b/id/7222246-L.jpg">
+
+<h3>Ikigai</h3>
+
+<p>Author: Hector Garcia</p>
+
+<p><b>Price:</b> ₹420</p>
+
+<button>Buy Now</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Email:</b> bookheaven@gmail.com</p>
+
+<p><b>Phone:</b> +91 9876543210</p>
+
+<p><b>Location:</b> Ahmedabad, India</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Book Heaven | Entrepreneurship Project</p>
+
+</footer>
+
+</body>
+
+</html>
